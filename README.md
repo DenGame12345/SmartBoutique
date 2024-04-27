@@ -1,1 +1,1 @@
-# SmartBoutique
+# Smartboutique

@@ -1,0 +1,168 @@
+body
+{
+    background-color: bisque;
+      margin: 0;
+   padding: 0;
+}
+
+header
+{
+   font-family: Сomic Sans MS;
+}
+
+footer
+{
+   background-color: rgb(232, 222, 32);
+} 
+
+.yt
+{
+   width: 120px;
+   height: 100px;
+}
+
+.ds
+{
+   width: 120px;
+   height: 110px;
+}
+
+.tg
+{
+   width: 100px;
+   height: 80px;
+   margin-bottom: 10px;
+}
+
+.p1
+{
+   color: grey;
+   text-align: right;
+   margin-right: 30px;
+}
+
+.p2
+{
+   margin-left: 30px;
+}
+
+form
+{
+   display: inline-block;
+}
+
+input
+{
+   font-size: 30px;
+   margin-left: 30px;
+   background-color: rgb(238, 170, 81);
+}
+
+button
+{
+   font-size: 30px;
+   background-color: rgb(238, 170, 81);
+}
+
+
+.back
+{
+   text-align: left;
+   font-size: 30px;
+}
+
+.aback
+{
+    text-decoration: none;
+    color: black;
+}
+
+.tv_main
+{
+    border: none;
+}
+
+.tv_component
+{
+   
+   background-color: rgb(255, 211, 156);
+   border-radius: 10%;
+   border: none;
+
+}
+
+.tv_link
+{
+   margin-left: 30px;
+   font-size: 15px;
+   text-align: center;
+}
+
+img
+{
+    width: 250px;
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 10px;
+ }
+
+ .tv_main
+ {
+   text-align: center;
+ }
+
+@media (min-width:1100px) 
+{
+   .tv_component
+   {
+      width:20%;
+      display: inline-block;
+      width: 300px;
+      height: 230px;
+      margin-left: 30px;
+      margin: 10px;
+   } 
+}
+
+@media (min-width: 601px)  and (max-width: 1099px) 
+                  {
+                     .tv_component
+                     {
+                        width: 45%;
+                        display: inline-block;
+                        text-align: center;               
+                        margin-left: 30px;
+                        margin: 10px;
+                     }
+
+
+                  }
+
+           
+
+
+@media screen and (max-device-width:600px)
+{                  
+                     .tv_component
+                     {
+                        display: inline-block;
+                        width: 70%;
+                        height: 400px;
+                        text-align: center;
+                     }
+
+                     
+
+
+                     img
+                     {
+                        width: 50%;
+                        height: 300px;
+                        text-align: center;
+                     }
+                     
+                     .tv_link
+                     {
+                        font-size: 30px;
+                     }
+                  }
